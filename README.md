@@ -3,7 +3,7 @@
 Documentation Python indexée par l'assistant pédagogique (RAG n8n + Supabase) pour les étudiants débutants de Jedha.
 
 - `demo-day/` : les fichiers indexés (.md, .pdf, .txt). Chaque push sur `main` déclenche la ré-indexation des fichiers ajoutés, modifiés ou supprimés.
-- Notebooks : convertis avec `jupyter nbconvert --to markdown --ClearOutputPreprocessor.enabled=True --output-dir docs <notebook>.ipynb`.
+- Notebooks : convertis avec `jupyter nbconvert --to markdown --ClearOutputPreprocessor.enabled=True --output-dir demo-day/<dossier> <notebook>.ipynb`.
 
 
 ## `demo-day/notebooks_v1/` : Python Data Science Handbook
