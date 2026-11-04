@@ -5,7 +5,6 @@ Documentation Python indexée par l'assistant pédagogique (RAG n8n + Supabase) 
 - `docs/` : les fichiers indexés (.md, .pdf, .txt). Chaque push sur `main` déclenche la ré-indexation des fichiers ajoutés, modifiés ou supprimés.
 - Notebooks : convertis avec `jupyter nbconvert --to markdown --ClearOutputPreprocessor.enabled=True --output-dir docs <notebook>.ipynb`.
 
-Contenu des cours : © Jedha.
 
 ## `docs/notebooks_v1/` : Python Data Science Handbook
 
